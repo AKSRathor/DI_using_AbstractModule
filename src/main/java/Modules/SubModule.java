@@ -14,11 +14,7 @@ public class SubModule extends AbstractModule {
         System.out.println("Configuring SubModule...");
     }
 
-    @Provides
-    @Singleton
-    public Config provideConfig() {
-        return new Config("https://example.com");
-    }
+    
     
     @Provides
     @Singleton
